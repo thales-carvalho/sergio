@@ -1,0 +1,39 @@
+
+.secaoContato {
+  background-color: var(--cinza);
+  text-align: center;
+  text-align: left;
+}
+
+.secaoContato-wink {
+  color: var(--azul-medio);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.secaoContato-form-fieldset {
+  border: 0;
+}
+
+.secaoContato-form-legend {
+  max-width: 300px;
+  font-family: var(--montserrat);
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.secaoContato-form-cta {
+  width: 100%;
+  margin-top: 1em;
+  display: block;
+  background: transparent;
+  color: var(--azul-medio);
+  border: 1px solid var(--azul-medio);
+}
+
+.secaoContato-form-cta:hover,
+.secaoContato-form-cta:focus {
+  color: var(--branco);
+  background-color: var(--azul-medio);
+}
